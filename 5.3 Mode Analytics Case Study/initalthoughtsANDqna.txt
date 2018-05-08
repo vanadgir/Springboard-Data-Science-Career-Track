@@ -1,0 +1,39 @@
+INITIAL THOUGHTS:
+When thinking about users and engagement, time is always a big factor. 
+Businesses/employees would be less likely to check Yammer during a big holiday, for example. 
+This could be checked by looking at which months/weeks have peak logins and if that coincides with the main holidays 
+in that country. 
+Conversely, we would also need to check what leads to upward spikes in engagement. 
+Ad campaigns and bots may lead to large amounts of users for just a short time. 
+Another potential issue leading to lower engagement could be from within the Yammer service itself, such as log errors or bugs.
+If user engagement ever drops to completely 0, then that might indicate a problem with the service.
+
+QUESTION & ANSWER:
+1. Do the answers to any of your original hypotheses lead you to further questions?
+
+The signup behavior looks pretty standard, so it doesn't seem like getting new users is an issue for Yammer.
+This does lead to more questions.
+
+2. If so, what are they and how will you test them?
+
+I would want to also study how long users stay engaged for (user age). What is the average age of a user before they
+become disinterested in the service? Do the older users have the same engagement events (liking, emails, searches)?
+
+This could be checked by comparing event date with the signup date of the user. This requires joining the two tables.
+
+3. If they are questions that you can’t answer using data alone, how would you go about answering them 
+(hypothetically, assuming you actually worked at this company)?
+
+I would ask the developers what features they were working on during the time of the engagement dip. 
+If they were playing around with some of the more popular features, it's possible an error arose that caused people
+to stop using the service.
+
+4. What seems like the most likely cause of the engagement dip?
+
+It seems like there is an issue with Yammer's mobile app, since the dip in engagement is the most drastic on phones
+and tablets. This may be due to a version release that happened that day/week.
+
+5. What, if anything, should the company do in response?
+
+I would ask the company to also track the app version in the dataset if possible. This way we can tell right away
+if a certain version is the reason for any dip in engagement.
